@@ -57,6 +57,11 @@ async def hekp():
         await bot(JoinChannelRequest("@officialninjauserbot"))
     except BaseException:
         pass
+      
+    try:
+        await bot(JoinChannelRequest("@LegendBot_AI"))
+    except BaseException:
+        pass
 
 
 async def module():
