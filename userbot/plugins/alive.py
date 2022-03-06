@@ -63,7 +63,7 @@ async def amireallyalive(alive):
         NINJA_caption += f"~~~~~~~~~~~~~~~~~~~~~~~\n"
         NINJA_caption += f"        **✘𝕭𝖔† 𝕾𝖙𝖆𝖙𝖚𝖘✘** \n"
         NINJA_caption += f"•🔥• **Oաղ̃ҽ̈ɾ**          ~ {ALIVE_NAME}\n\n"
-        NINJA_caption += f"•🌟• **𝖑𝖊ɠêɳ̃dẞø†**   ~ {NINJAversion}\n"
+        NINJA_caption += f"•🌟• **NinjaBø†**   ~ {NINJAversion}\n"
         NINJA_caption += f"•🌟• **†ҽ̀lҽ́thøղ̃**     ~ `{version.__version__}`\n"
         NINJA_caption += f"•🌟• **𝚄ρtime**         ~ `{uptime}`\n"
         NINJA_caption += f"•🌟• **𝙶𝚛𝚘𝚞𝚙**           ~ [𝙶𝚛𝚘𝚞𝚙](t.me/ninja_Userbot)\n"
