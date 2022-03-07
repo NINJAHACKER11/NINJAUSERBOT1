@@ -19,8 +19,8 @@ else:
 msg = f"""
 **⚜ 𝙻𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝙰𝚏 Ninja𝙱𝚘𝚝 ⚜**
 
-  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/NINJA-OS/NINJABOT)
-  •        [♦️ Deploy ♦️](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNINJA-OS%2FNINJABOT&template=https%3A%2F%2Fgithub.com%2FNINJA-OS%2FNINJABOT)
+  •        [♥️ 𝚁𝚎𝚙𝚘 ♥️](https://github.com/NINJAHACKER11/NINJAUSERBOT)
+  •        [♦️ Deploy ♦️](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNINJAHACKER11%2FNINJAUSERBOT&template=https%3A%2F%2Fgithub.com%2FNINJAHACKER11%2FNINJAUSERBOT)
 
   •  ©️ {ninja_channel} ™
 """
@@ -153,4 +153,4 @@ async def _(event):
 
     logger.info(result)  # pylint:disable=E0602
 
-    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву **NINJABOT** вσт")
+    await event.edit("тєℓєтнση  вαѕє∂ υѕєявσт ρσωєяє∂ ву ninjaboy")
