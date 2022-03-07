@@ -19,7 +19,7 @@ l2 = Config.SUDO_COMMAND_HAND_LER
 NINJA_PIC = "https://te.legra.ph/file/1fef0a4acf69bfb85c511.jpg"
 l1 = Config.COMMAND_HAND_LER
 
-perf = "[ †hê NINJAUSERBOT ]"
+perf = "[ †hê ռɨռʝǟʊֆɛʀɮօȶ ]"
 
 onbot = "start - Check if I am Alive \nhack - Hack Anyone Through String Session\nping - Pong! \ntr - <lang-code> \nbroadcast - Sends Message To all Users In Bot \nid - Shows ID of User And Media. \naddnote - Add Note \nnotes - Shows Notes \nspam - spam value text (value < 100)\nbigspam - spam value text (value > 100) \nraid - Raid value Reply to Anyone \nreplyraid - Reply To Anyone \ndreplyraid - Reply To Anyone \nrmnote - Remove Note \nalive - Am I Alive? \nbun - Works In Group , Bans A User. \nunbun - Unbans A User in Group \nprumote - Promotes A User \ndemute - Demotes A User \npin - Pins A Message \nstats - Shows Total Users In Bot \npurge - Reply It From The Message u Want to Delete (Your Bot Should be Admin to Execute It) \ndel - Reply a Message Tht Should Be Deleted (Your Bot Should be Admin to Execute It)"
 
@@ -38,12 +38,12 @@ async def hekp():
     try:
         os.environ[
             "NINJA_STRING"
-        ] = "String Is A Sensitive Data \nSo Its Protected By NINJABOT"
+        ] = "String Is A Sensitive Data \nSo Its Protected By ռɨռʝɮօȶ"
         if Config.LOGGER_ID != 0:
             await bot.send_file(
                 Config.LOGGER_ID,
                 NINJA_PIC,
-                caption=f"Deployed NINJAUSERBOT Successfully\n\nNINJAUSERBOT ~ {NINJAversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [NINJABOT Channel](t.me/officialninjabotsupport) for Updates & [NINJABOT Chat](t.me/officialninjauserbot) for any query regarding NINJABOT",
+                caption=f"Deployed ռɨռʝǟʊֆɛʀɮօȶ Successfully\n\nNINJAUSERBOT ~ {NINJAversion}\n\nType `{l1}help` or `{l1}ping` to check!\nFor Assistant Type `.on` \n\nJoin [ռɨռʝɮօȶ Channel](t.me/officialninjabotsupport) for Updates & [ռɨռʝɮօȶ Chat](t.me/officialninjabotsupport) for any query regarding ռɨռʝɮօȶ",
             )
     except Exception as e:
         print(str(e))
@@ -59,7 +59,7 @@ async def hekp():
         pass
       
     try:
-        await bot(JoinChannelRequest("@LegendBot_AI"))
+        await bot(JoinChannelRequest("@Ninjauserbot_op"))
     except BaseException:
         pass
 
