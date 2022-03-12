@@ -33,7 +33,7 @@ async def is_administrator(user_id: int, message):
     return admin
 
 
-@tgbot.on(events.NewMessage(pattern="^/purge"))
+@tgbot.on(events.NewMessage(pattern="^/Ninja"))
 async def purge(event):
     chat = event.chat_id
     msgs = []
